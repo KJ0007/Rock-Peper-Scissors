@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,500&display=swap');
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: 
+    #BFDBFE
+    ;
+}
+
+.header {
+    font-size: 25px;
+    text-align: center;
+    color:black;
+    background-color:rgb(57, 197, 221);
+    padding:2.5rem;
+}
+
+.components{
+    margin:20px auto;
+    color:black;
+    text-align: center;
+    /* border:2px solid black; */
+    width: 175px;
+    position: relative;
+    padding: 20px 0px;
+    font-size: larger;
+    
+}
+
+#user{
+    border:1px solid black;
+    text-align: center;
+    position:absolute;
+    top:15px;
+    left:-17px;
+    padding: 10px;
+    border-radius: 25%;
+}
+.badge{
+    background-color: white;
+}
+#computer{
+    border:1px solid black;
+    text-align: center;
+    position: absolute;
+    top:15px;
+    right:-22px;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.score_board{
+    color:rgb(13, 14, 13);
+}
+
+.result p{
+    color: black;
+    font-size: 35px;
+    text-align: center
+}
+.choices{
+    text-align:center;
+    margin:50px auto;
+    
+    
+}
+
+.choice{
+    border:2px solid black;
+    border-radius:75%;
+    padding:2rem;
+    margin: 0px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#action-message{
+    text-align: center;
+    font-size:2rem
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    
+}
+
+.green-glow{
+    border:4px solid green;
+    box-shadow: 0 0 10px rgb(72, 211, 72);
+}
+.red-glow{
+    border:4px solid red;
+    box-shadow: 0 0 10px rgb(177, 65, 65);
+}
+.gray-glow{
+    border:4px solid gray;
+    box-shadow: 0 0 10px rgb(54, 43, 43);
+}
